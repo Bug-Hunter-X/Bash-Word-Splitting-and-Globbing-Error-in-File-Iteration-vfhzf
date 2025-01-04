@@ -1,0 +1,3 @@
+# Bash Scripting Bug: Word Splitting and Globbing
+
+This repository demonstrates a common but subtle error in bash scripting related to word splitting and globbing when iterating through a list of files.  The `bug.sh` file shows the incorrect approach, leading to unexpected behavior if filenames contain spaces or special characters.  The `bugSolution.sh` file provides the corrected implementation using arrays, which avoids the word splitting issue.
